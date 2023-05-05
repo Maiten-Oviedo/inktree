@@ -1,0 +1,87 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* PARTE DEL LOGO Y NOMBRE*/
+
+body{
+    background-image: url("degrade.jpg");
+    background-size: cover;
+}
+
+main {
+    height: 70vh;
+}
+
+.logo {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main nav img {
+    height: 150px;
+    width: 150px;
+}
+
+main nav h1 {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+/* PARTE DE LOS LINKS */
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links ul li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 35px;
+    background-color: #fff;
+    width: 350px;
+    height: 30px;
+    border-radius: 12px;
+    border-style: groove;
+    border-color: #e10a448a;
+}
+
+.links ul li a{
+    font-size: 18px;
+    color: #000;
+}
+
+
+
+/* PARTE DE FOOTER*/
+
+footer {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes i{
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+    padding-top: 90px;
+}
